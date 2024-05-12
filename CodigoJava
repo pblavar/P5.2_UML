@@ -1,0 +1,62 @@
+public class Persona {
+    private String nombre;
+    private String correo;
+    private String numTelefono;
+}
+
+public class Usuario extends Persona {
+    public Usuario() {
+    }
+
+}
+
+public class Administrador extends Persona{
+    public Administrador() {
+    }
+
+    public void gestionarDisponibilidad() {
+       
+    }
+    
+    public void aprobarSolicitud() {
+       
+    }
+    
+    public void generarInforme() {
+        
+    }
+}
+
+public class Espacio {
+    private String nombre;
+    private String descripcion;
+    private int capacidadMax;
+    private String ubicacion;
+    private String horarioDisponibilidad;
+    
+    public Espacio() {
+    }
+
+    // Getters y setters
+}
+
+public class Reserva {
+    private String motivo;
+    private int numParticipantes;
+    private Espacio nombreEspacio;
+    
+    public Reserva() {
+    }
+    
+    // Getters y setters
+}
+
+public class UsuarioReserva {
+    private String fechaInicio;
+    private String fechaFin;
+    
+    public UsuarioReserva() {
+    }
+   
+    // Getters y setters
+}
